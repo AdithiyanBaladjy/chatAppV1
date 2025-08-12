@@ -1,0 +1,94 @@
+.order-module-full-page{
+    position: absolute;
+    top: 10%;
+    padding:20px;
+    /* Padding top for the top radius */
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    height: 90%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--secondary-background-color);
+    color: var(--primary-font-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-right-btn{
+    position:absolute;
+    right: 25px;
+    bottom: 25px;
+    background-color: var(--primary-accent-bg-color);
+    color: var(--primary--accent-font-color);
+    box-shadow: 10px 10px 15px var(--shadow-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+.order-module-overview-group-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.overview-group-horizontal-scroll-list{
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    width: 90vw;
+}
+.order-card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-background-color);
+    box-shadow: 5px 5px 10px var(--shadow-color);
+    padding: 10px;
+    width: 152px;
+    /* height: 50px; */
+    border-radius: 8px;
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+.order-card-header{
+    font-weight: bold;
+    /* font-size: 1.1rem; */
+    color: var(--primary-font-color);
+    margin-bottom: 5px;
+}
+.order-card-details-row{
+    display: flex;
+    flex-direction: row;
+    color: var(--sub-font-color);
+    font-size: var(--sub-font-size);
+    padding: 5px 0 0 0;
+}
+.overview-group-header{
+    display: flex;
+    flex-direction: row;
+    color:var(--sub-font-color);
+}
+.order-module-ic-container{
+    margin-left: 5px;
+    position: relative;
+    top:1px;
+}
+.group-header-text{
+    color: var(--sub-font-color);
+}
+.status-ic{
+    margin-right: 5px;
+    position: relative;
+    top:1px;
+}
+.ic-green{
+    color: var(--success-green);
+}
+.ic-yellow{
+    color: var(--alert-yellow);
+}
+.ic-red{
+    color: var(--failure-red);
+}
+.ic-accent{
+    color: var(--primary-accent-bg-color);
+}

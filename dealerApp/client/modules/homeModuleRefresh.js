@@ -1,0 +1,24 @@
+carouselParent=document.getElementById("catalogueCarouselParent");
+if(carouselSwipeInterval)
+{
+    clearInterval(carouselSwipeInterval);
+    carouselSwipeInterval=null;
+}
+if(carouselParent)
+{
+    carouselChildren=carouselParent.children;
+    carouselLen=carouselChildren.length;
+    currentCardInd=0;
+    carouselSwipeInterval=setInterval(()=>{
+        if(currentCardInd+1>=carouselLen)
+        {
+            currentCardInd=0;
+            carouselChildren[0].scrollIntoViewIfNeeded();
+        }
+        else
+        {
+            currentCardInd++;
+            carouselChildren[currentCardInd].scrollIntoViewIfNeeded();
+        }
+    },2000);
+}
