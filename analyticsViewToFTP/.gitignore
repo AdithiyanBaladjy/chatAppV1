@@ -1,0 +1,7 @@
+/logs/*
+/FileExports/*
+*.db
+.embeddedDb
+.embeddedDb.db
+/embeddedDb
+/embeddedDb.db

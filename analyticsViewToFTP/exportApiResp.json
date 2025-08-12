@@ -1,0 +1,1 @@
+{"status": "success", "summary": "Fetch export job info", "data": {"jobId": "100068000003191580", "jobCode": "1004", "jobStatus": "JOB COMPLETED", "downloadUrl": "https://analytics.unionbankofindia.co.in/restapi/v2/bulk/workspaces/100068000000003252/exportjobs/100068000003191580/data", "expiryTime": "1722593922016"}}
