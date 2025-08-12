@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatCall - PWA</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#0d6efd">
+    <meta name="description" content="A modern chat and call application">
+    <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiQ2hhdENhbGwgUFdBIiwic2hvcnRfbmFtZSI6IkNoYXRDYWxsIiwic3RhcnRfdXJsIjoiLyIsImRpc3BsYXkiOiJzdGFuZGFsb25lIiwidGhlbWVfY29sb3IiOiIjMGQ2ZWZkIiwiYmFja2dyb3VuZF9jb2xvciI6IiNmOGY5ZmEiLCJpY29ucyI6W3sic3JjIjoiZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCM2FXUjBhRDBpTVRJNElpQm9aV2xuYUhROUlqRXlPQ0lpSUdobGJHNXpQU0pvZEhSd09pOHZkM2QzTG5jekxtOXlaeTh5TURBd0wzTjJaeUkrUEhKbFkzUWdkMmxrZEdnOUlqRXlPQ0lpSUdobGFXZG9kRDBpTVRJNElpQm1hV3hzUFNJak1HUTJZV1prSWk4K1BDOXpkbWMrIiwic2l6ZXMiOiIxMjh4MTI4IiwidHlwZSI6ImltYWdlL3N2Zyt4bWwifV19">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet">
+    <!--Sign-in CSS inclusions-->
+    <link href="./sign_in.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="d-flex align-items-center">
+                <button id="backBtn" class="btn-icon back-btn d-none">
+                    <i class="bi bi-arrow-left"></i>
+                </button>
+                <h1 class="header-title" id="headerTitle">ChatCall</h1>
+                <div class="ms-auto">
+                    <button id="themeToggle" class="btn-icon" style="background: rgba(255,255,255,0.1); color: white;">
+                        <i class="bi bi-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div id="signInScreen" class="screen">
+                <div class="sign-in-page">
+                    <div class="sign-in-container">
+                        <div class="sign-in-row centralise-contents boldise-text">
+                            Chat Room Login
+                        </div>
+                        <div class="sign-in-row">
+                            <input type="text" class="sign-in-inputs" id="signInUserName" placeholder="Email Address"/>
+                        </div>
+                        <div class="sign-in-row">
+                            <input type="password" class="sign-in-inputs" id="signInPassword" placeholder="Password"/>
+                        </div>
+                        <div class="sign-in-row forgot-container hide">
+                            New User?
+                        </div>
+                        <div class="sign-in-row sign-in-btn" onclick="signInUser()">
+                            <div>Sign In</div>
+                        </div>
+                        <div class="sign-in-row sign-in-btn" onclick="signUpUser()">
+                            <div>Sign Up</div>
+                        </div>
+                        <div class="sign-in-row" id="infoTag">
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contacts Screen -->
+            <div id="contactsScreen" class="screen">
+                <div class="container-fluid p-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="contactsList"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Screen -->
+            <div id="chatScreen" class="screen hidden">
+                <div class="d-flex flex-column h-100">
+                    <div class="chat-header">
+                        <div class="contact-avatar" id="chatAvatar">A</div>
+                        <div class="flex-grow-1">
+                            <div class="contact-name" id="chatContactName">Contact Name</div>
+                            <div class="contact-status" id="chatContactStatus">Online</div>
+                        </div>
+                        <button id="callBtn" class="btn-icon btn-success">
+                            <i class="bi bi-telephone"></i>
+                        </button>
+                    </div>
+                    <div class="chat-messages" id="chatMessages"></div>
+                    <div class="chat-input">
+                        <div class="input-group">
+                            <input type="text" class="message-input" id="messageInput" placeholder="Type a message...">
+                            <button id="sendBtn" class="btn-icon btn-primary">
+                                <i class="bi bi-send"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call Screen -->
+            <div id="callScreen" class="screen call-screen hidden">
+                <div class="call-info">
+                    <div class="call-avatar" id="callAvatar">A</div>
+                    <div class="call-name" id="callContactName">Contact Name</div>
+                    <div class="call-status" id="callStatus">Calling...</div>
+                    <div class="call-duration" id="callDuration">00:00</div>
+                </div>
+                <div class="call-controls">
+                    <button id="muteBtn" class="call-btn mute" title="Mute">
+                        <i class="bi bi-mic"></i>
+                    </button>
+                    <button id="speakerBtn" class="call-btn speaker" title="Speaker">
+                        <i class="bi bi-volume-up"></i>
+                    </button>
+                    <button id="endCallBtn" class="call-btn end-call" title="End Call">
+                        <i class="bi bi-telephone-x"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
