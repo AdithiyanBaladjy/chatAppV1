@@ -1,0 +1,84 @@
+/* LET THE STYLING BEGIN */
+.photo-frame{
+    border: 42px solid #f0dddf;
+    border-radius: 8px;
+    height: 450px;
+    width: 400px;
+    box-shadow: 10px 10px 10px #c4c4c4;
+    background: url('fgImage.jpeg');
+
+}
+.invitation-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    background-color: #f3ece7;
+    opacity: 0.82;
+
+}
+.invitation-card{
+    /* display: flex; */
+    flex-direction: column;
+    padding: 10px 0;
+    /* width: 80%; */
+    /* height: 80%; */
+    min-width: 300px;
+    border: 0.5px solid rgb(146, 146, 146);
+    box-shadow: 6px 6px 10px rgb(223, 223, 223);
+    border-radius: 10px;
+    animation: card-animation 1s forwards 1;
+}
+.card-row{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header-row{
+    font-size: 1.5rem;
+}
+.bold-text{
+    font-weight: bold;
+}
+.italic-row{
+    font-style: italic;
+}
+body{
+    
+    color: #413f33;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* background: url('background.jpg'); */
+    background:url('bg2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: no-repeat; */
+}
+.click-link{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+@keyframes card-animation {
+    0%{
+        position: relative;
+        top: 100px;
+        box-shadow: 50px 50px 25px rgb(243, 230, 240);
+    }
+    100%{
+        position: relative;
+        top:0px;
+    }
+}
+
+.footer{
+    padding-top: 30px;
+    font-size: 0.7rem;
+}
