@@ -1,0 +1,8 @@
+{
+	"command": "sh -c 'pip3 install -r requirements.txt;python3 app.py;'",
+	"build_path": "/Users/adithiyan-14770/widgets/python_utils/dealerBackend",
+	"stack": "python_3_9",
+	"env_variables": {},
+	"memory": 256,
+	"scripts": {}
+}
