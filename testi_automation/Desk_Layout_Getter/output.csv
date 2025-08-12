@@ -1,0 +1,401 @@
+,Module,Field Name,API Name,Data Type
+0,Desk,Department,departmentId,LookUp
+1,Desk,Contact Name,contactId,LookUp
+2,Desk,Email,email,Email
+3,Desk,Is Existing Customer?,cf_is_existing_customer,Picklist
+4,Desk,Customer ID,cf_customer_id,Text
+5,Desk,Resident Status,cf_resident_status,Text
+6,Desk,Customer Constitution,cf_customer_constitution,Text
+7,Desk,Customer Age,cf_customer_age,Number
+8,Desk,Customer Account Number,cf_customer_account_number,Text
+9,Desk,Pincode-place of incident,cf_test,Text
+10,Desk,Phone,phone,Phone
+11,Desk,Mobile,cf_mobile,Text
+12,Desk,Alternate Mobile No,cf_alternate_mobile_no,Phone
+13,Desk,Schedule Executed,cf_schedule_executed,Boolean
+14,Desk,Imported Ticket,cf_imported_ticket,Boolean
+15,Desk,Subject,subject,Text
+16,Desk,Description,description,Textarea
+17,Desk,Status,status,Picklist
+18,Desk,Ticket Owner,assigneeId,LookUp
+19,Desk,Ticket_Type,cf_ticket_type_1,Picklist
+20,Desk,Type Ticket,cf_type_ticket,Picklist
+21,Desk,Service Request,cf_service_request,Picklist
+22,Desk,Complaint,cf_complaint,Picklist
+23,Desk,Internet Banking/ Loans/Advances,cf_internet_banking_loans_advances,Picklist
+24,Desk,Query,cf_query,Picklist
+25,Desk,Type,cf_type,Picklist
+26,Desk,Area,cf_area,Picklist
+27,Desk,Sub Area,cf_sub_area,Picklist
+28,Desk,Child Sub Area,cf_child_sub_area,Picklist
+29,Desk,Source,cf_source,Text
+30,Desk,Calling Number,cf_calling_number,Phone
+31,Desk,Branch Sol ID,cf_branch_sol_id,Number
+32,Desk,Resolution,resolution,Textarea
+33,Desk,Skills,entitySkills,LookUp
+34,Desk,Function executed on create,cf_function_executed_on_create,Boolean
+35,Desk,Call transfer to Agent?,cf_test_5,Boolean
+36,Desk,Merchant/Beneficiary Account Number,cf_test_16,Text
+37,Desk,ATM ID,cf_atm_id,Text
+38,Desk,Email ID,cf_email_id,Email
+39,Desk,Date of email received from CC Cell,cf_date_of_email_received_from_cc_cell,Date
+40,Desk,Communicated through email to,cf_communicated_through_email_to,Text
+41,Desk,Type of Details and Evidences,cf_type_of_details_and_evidences,Textarea
+42,Desk,GL Code,cf_gl_code,Text
+43,Desk,Debit Account No.,cf_debit_account_no_1,Text
+44,Desk,Last 4 digit of Debit Card number,cf_debit_card_number_1,Text
+45,Desk,Reversal A/c No.,cf_reversal_a_c_no_1,Text
+46,Desk,Mode of Requests,cf_mode_of_requests,Picklist
+47,Desk,Category,category,Picklist
+48,Desk,PPO Number,cf_ppo_number_1,Text
+49,Desk,Price,cf_price,Currency
+50,Desk,Retail login Id,cf_retail_login_id_1,Text
+51,Desk,Linked Branch Name,cf_nomination_available_1,Text
+52,Desk,Customer has SGPIN and TPIN,cf_customer_has_sgpin_and_tpin_1,Boolean
+53,Desk,Bank Reference Id,cf_bank_reference_id,Text
+54,Desk,Nomination available?,cf_nomination_available,Picklist
+55,Desk,Chq Amount,cf_chq_amount,Currency
+56,Desk,Sold product/Service Name,cf_isin_number_1,Text
+57,Desk,No. of Leafs,cf_no_of_leafs_1,Text
+58,Desk,Chq Number,cf_chq_number_1,Text
+59,Desk,Single Individual?,cf_single_individual_1_1,Boolean
+60,Desk,Tracker Id received,cf_tracker_id_received_1,Boolean
+61,Desk,Transaction Amount,cf_transaction_amount,Currency
+62,Desk,Onsite/Offsite,cf_onsite_offsite,Text
+63,Desk,TDS Amount,cf_tds_amount,Currency
+64,Desk,Date of Deduction,cf_date_of_deduction,Date
+65,Desk,SCSS Account Number,cf_scss_account_no_1,Text
+66,Desk,Beneficiary Account Name,cf_beneficiary_account_name,Text
+67,Desk,Beneficiary Account Number,cf_test_15,Text
+68,Desk,CHARGES,cf_test_17,Text
+69,Desk,Name of recovery agent,cf_test_11,Text
+70,Desk,Account Number,cf_account_number,Text
+71,Desk,ATM Location,cf_name_of_nominee,Text
+72,Desk,Mismatch Head,cf_mismatch_head,Text
+73,Desk,Renewal Limit,cf_renewal_limit_2,Textarea
+74,Desk,Type of Txn,cf_type_of_txn,Picklist
+75,Desk,To Address Email,cf_to_address_email,Email
+76,Desk,Amount of Loan,cf_amount_of_loan,Currency
+77,Desk,Customer Date of Birth Confirmed,cf_customer_date_of_birth_confirmed_1,Boolean
+78,Desk,TYPE OF ACTIVITIES,cf_type_of_activities,Text
+79,Desk,Date given to Bank,cf_date_given_to_bank,Date
+80,Desk,Amount of Subsidy,cf_amount_of_subsidy,Currency
+81,Desk,Amount Requested,cf_amount_requested,Currency
+82,Desk,Freeze Code,cf_certificate_type,Text
+83,Desk,Date of Debit freeze,cf_date_of_debit_freeze,Date
+84,Desk,Freeze Reason,cf_freeze_reason,Textarea
+85,Desk,Call center executive name,cf_call_center_executive_name,Text
+86,Desk,NAME OF AGENT,cf_name_of_agent,Text
+87,Desk,Amount in Question,cf_amount_in_question,Currency
+88,Desk,Issue/Reason,cf_issue_reason,Text
+89,Desk,Name of Menu,cf_name_of_menu,Text
+90,Desk,Rewards Redemption Date,cf_rewards_redemption_date,Date
+91,Desk,BRANCH DETAILS,cf_branch_details,Text
+92,Desk,Level2,cf_level2,Boolean
+93,Desk,Other Bank ATM Location,cf_other_bank_location,Text
+94,Desk,Card Status,cf_card_status,Text
+95,Desk,Purpose,cf_purpose,Text
+96,Desk,Transaction Type,cf_transaction_type,Picklist
+97,Desk,Total Leaves,cf_total_leaves,Picklist
+98,Desk,Sub Status,cf_sub_status,Picklist
+99,Desk,Inward/Outward,cf_inward_outward,Text
+100,Desk,Policy/Folio No,cf_policy_folio_no,Text
+101,Desk,Request Type,cf_request_type,Picklist
+102,Desk,Ticketed Date,cf_ticketed_date,Date
+103,Desk,Ticket Type,cf_ticket_type,Text
+104,Desk,Ticket Given At,cf_request_given_at,Picklist
+105,Desk,ATMCLAIM Reference No.,cf_finacle_reference_no,Text
+106,Desk,Branch Code,cf_picklist_1,Picklist
+107,Desk,No of shares applied,cf_no_of_shares_applied,Text
+108,Desk,IPO Name,cf_ipo_name,Text
+109,Desk,Property address,cf_property_address,Text
+110,Desk,Demat no,cf_demat_no,Text
+111,Desk,Security Details,cf_security_details,Text
+112,Desk,Type of Subsidy,cf_type_of_subsidy,Text
+113,Desk,Toll Free Number,cf_toll_free_number,Text
+114,Desk,IPO Application No.,cf_ipo_application_no,Text
+115,Desk,Kissan Card Number,cf_kissan_card_number,Text
+116,Desk,Dispatch Mode,cf_dispatch_mode,Text
+117,Desk,Base Branch,cf_base_branch,Text
+118,Desk,Place of Delivery,cf_place_of_delivery,Text
+119,Desk,Name/AC No on Cheque book,cf_name_ac_no_on_cheque_book,Text
+120,Desk,SR Applet,cf_sr_applet,Text
+121,Desk,Refund Amount,cf_refund_amount,Currency
+122,Desk,PENDING SINCE,cf_pending_since,Date
+123,Desk,NATURE OF ISSUE,cf_nature_of_issue,Text
+124,Desk,Correct Name/Account to be printed,cf_correct_name_ac_no,Text
+125,Desk,Claim Amount,cf_claim_amount,Currency
+126,Desk,When Error Occurred,cf_when_error_occurred,Text
+127,Desk,Transfer Type,cf_transfer_type,Text
+128,Desk,UTR No.,cf_utr_no,Text
+129,Desk,Customer Name,cf_customer_name,Text
+130,Desk,Called From Phone No,cf_called_from_phone_no,Text
+131,Desk,Other Bank Name,cf_other_bank_name,Text
+132,Desk,Receipt/Ref No.,cf_receipt_ref_no,Text
+133,Desk,Message from IVR,cf_message_from_ivr,Text
+134,Desk,Aadhar Number-Last 4 digit,cf_aadhar_number,Text
+135,Desk,Date of Debit / Credit,cf_date_of_debit_credit,Date
+136,Desk,Country Code,cf_country_code,Text
+137,Desk,Request,cf_request,Text
+138,Desk,PAN Number,cf_pan_number,Text
+139,Desk,Total Amount,cf_single_individual_1,Text
+140,Desk,Last 4 digit of credit card number,cf_credit_card_number,Text
+141,Desk,Requirement,cf_requirement,Text
+142,Desk,Payment mode reqd,cf_payment_mode_reqd,Text
+143,Desk,Executed,cf_executed,Text
+144,Desk,Name of Broker,cf_name_of_broker,Text
+145,Desk,Period,cf_during_task,Text
+146,Desk,Receipt No.,cf_receipt_no,Text
+147,Desk,Mode of fraud,cf_location_drawn_on,Text
+148,Desk,IFSC code,cf_ifsc_code,Text
+149,Desk,Taxable Amount,cf_mode_of_activation,Text
+150,Desk,Mode of Application,cf_mode_of_application,Text
+151,Desk,Agent Name,cf_agent_name,Text
+152,Desk,Transaction Narration,cf_any_error_message,Text
+153,Desk,Account Type,cf_account_type,Text
+154,Desk,Required Change,cf_required_change,Text
+155,Desk,Name of Biller,cf_name_of_biller,Text
+156,Desk,Beneficiary Bank,cf_beneficiary_bank,Text
+157,Desk,Error Message,cf_error_message,Text
+158,Desk,Extension Period,cf_extension_period,Text
+159,Desk,Merchant/Beneficiary Account Name,cf_beneficiary_name,Text
+160,Desk,IMPS Ref No,cf_corporate_id,Text
+161,Desk,AEPS Ref No,cf_related_a_c_nos,Text
+162,Desk,Goods Quantity,cf_beneficiary_branch,Text
+163,Desk,Item Update/Change reqd,cf_item_update_change_reqd,Text
+164,Desk,User Id,cf_user_id,Text
+165,Desk,Goods Price,cf_login_transaction,Text
+166,Desk,Transaction No.,cf_transaction_no,Text
+167,Desk,UPI Ref No,cf_retail_user_id,Text
+168,Desk,Card Holder Name,cf_card_holder_name,Text
+169,Desk,Location,cf_location,Text
+170,Desk,POS-Place of Supply,cf_ref_no_charge_slip,Text
+171,Desk,Location of POS,cf_location_of_pos,Text
+172,Desk,Original Tran Id,cf_location_of_the_atm,Text
+173,Desk,GST Rate,cf_standing_inst_number,Text
+174,Desk,GST Amount,cf_relation,Text
+175,Desk,Contact Number,cf_contact_no,Phone
+176,Desk,ATM Address,cf_atm_address,Textarea
+177,Desk,Chq Number From,cf_chq_number_from,Text
+178,Desk,Chq Number To,cf_chq_number_to,Text
+179,Desk,Account where amount is parked,cf_error_while,Text
+180,Desk,Nominee Name,cf_nominee_name,Text
+181,Desk,Last 4 digit of Card Number,cf_card_number,Text
+182,Desk,Branch Name,cf_branch_name,Text
+183,Desk,Prev. Request Number,cf_prev_request_number,Text
+184,Desk,Actual date of complaint received,cf_dob_as_per_ppo,Date
+185,Desk,Family Pensioner Name,cf_network,Text
+186,Desk,Issue,cf_issue,Text
+187,Desk,NATURE OF SERVICE,cf_nature_of_service,Text
+188,Desk,Item to be Updated,cf_item_to_be_updated,Text
+189,Desk,Cut of date,cf_cut_of_date,Date
+190,Desk,DateTime2,cf_date_time_1,DateTime
+191,Desk,Full Paper submission Date,cf_full_paper_submission_date,Date
+192,Desk,Full Doc Submit Date,cf_full_doc_submit_dt,Date
+193,Desk,Final Payment Dt,cf_final_payment_dt,Date
+194,Desk,Attempted Date,cf_attempted_date,Date
+195,Desk,Renewal Due Date,cf_renewal_due_date,Date
+196,Desk,Date when tried/accessed,cf_date_when_tried_accessed,Date
+197,Desk,Requested Date,cf_requested_date,Date
+198,Desk,Date of DIS,cf_date_of_dis,Date
+199,Desk,Submission Date of Claim Form,cf_submission_date_of_claim_form,Date
+200,Desk,Sub Category,subCategory,Picklist
+201,Desk,Date of Death,cf_date_of_death,Date
+202,Desk,Chq Date,cf_chq_date,Date
+203,Desk,Date of Debit,cf_date_of_debit,Date
+204,Desk,Date of Application,cf_date_of_application,Date
+205,Desk,DATE OF CKYC,cf_date_of_ckyc,Date
+206,Desk,Transaction Date,cf_transaction_date,Date
+207,Desk,DATE OF OCCURANCE,cf_date_of_occurance,Date
+208,Desk,Date of Request,cf_date_of_request,Date
+209,Desk,Retrieval Ref No.,cf_retrieval_ref_no,Text
+210,Desk,Date of Birth,cf_date_of_birth,Date
+211,Desk,From Date,cf_from_date,Date
+212,Desk,To Date,cf_to_date1,Date
+213,Desk,Last login time,cf_last_login_time,DateTime
+214,Desk,Dispute Type,cf_loan_type,Text
+215,Desk,Loan A/c No.,cf_loan_a_c_no,Text
+216,Desk,Salary Per Anum,cf_salary_per_anum,Currency
+217,Desk,Customer Comments,cf_customer_comments,Textarea
+218,Desk,Region Name,cf_region,Textarea
+219,Desk,Mobile Number,cf_mobile_number,Phone
+220,Desk,Amount of Claim,cf_amount_of_claim_form,Currency
+221,Desk,Amount Dispensed,cf_amount_dispensed,Currency
+222,Desk,Amount,cf_amount,Currency
+223,Desk,Standing Inst. Amount,cf_standing_inst_amount,Currency
+224,Desk,Payable at,cf_payable_at,Text
+225,Desk,Commutation Amount,cf_commutation_amount,Currency
+226,Desk,CIBIL Score,cf_cibil_score,Textarea
+227,Desk,Address,cf_address,Textarea
+228,Desk,Call Back Number,cf_call_back_number,Phone
+229,Desk,Account Number To,cf_account_number_to,Number
+230,Desk,Account Number From,cf_account_number_from,Number
+231,Desk,Branch_Code,cf_integer_1,Number
+232,Desk,Card Expiry Date YYMM,cf_card_expiry_date_yymm,Number
+233,Desk,Last Name,cf_test_4,Text
+234,Desk,Customer Full Name,cf_test_2,Text
+235,Desk,Any additional information,cf_device_module,Text
+236,Desk,Guidance To Agent,cf_guidance_to_agent,Textarea
+237,Desk,Customer Status,cf_test_3,Text
+238,Desk,Card Type,cf_card_type,Text
+239,Desk,Cheque No From,cf_cheque_no_from,Number
+240,Desk,Cheque No To,cf_cheque_no_to,Number
+241,Desk,Preferred Branch,cf_preferred_branch,Text
+242,Desk,Bill Number,cf_bill_number,Text
+243,Desk,Zone Name,cf_zone_name,Text
+244,Desk,Request From,cf_request_from,Text
+245,Desk,call centre executive name,cf_call_centre_executive_name,Text
+246,Desk,NEFT/RTGS,cf_neft_rtgs,Text
+247,Desk,TRANSACTION NO,cf_transaction_no_1,Text
+248,Desk,LOCKER NO,cf_locker_no,Text
+249,Desk,Transaction Ref,cf_transaction_ref,Text
+250,Desk,Txn Mode,cf_txn_mode,Text
+251,Desk,ECS/NECS,cf_ecs_necs,Text
+252,Desk,AREA OF COMPLIANCE,cf_area_of_compliance,Text
+253,Desk,TYPE OF COMPLAINCE,cf_type_of_complaince,Text
+254,Desk,Amount in default,cf_amount_in_default,Currency
+255,Desk,DD/PO Number,cf_dd_po_number,Text
+256,Desk,Merchant details,cf_merchant_details,Textarea
+257,Desk,Sequence No.-RRN,cf_sequence_no_rrn,Text
+258,Desk,Txn Reference Number,cf_reference_number,Text
+259,Desk,Nature of Incident,cf_nature_of_incident,Text
+260,Desk,Branch of Incident,cf_branch_of_incidence,Text
+261,Desk,Cheque Number,cf_cheque_number,Text
+262,Desk,Call Date/Time,cf_call_date_time,DateTime
+263,Desk,Branch Employee Name,cf_branch_employee_name,Text
+264,Desk,Date of Incident,cf_date_of_incidence,Date
+265,Desk,Final Payment Date,cf_final_payment_date,Date
+266,Desk,FACILITY AVAILED,cf_facility_availed,Text
+267,Desk,OTP recd Contact,cf_otp_recd_contact_1,Text
+268,Desk,Customer has Phone Banking PIN,cf_customer_has_phone_banking_pin_1,Boolean
+269,Desk,Disputed Amount,cf_disputed_amount,Currency
+270,Desk,Party Name,cf_party_name,Text
+271,Desk,Debit Above Limit,cf_debit_above_limit_1,Text
+272,Desk,Party Address,cf_party_address,Textarea
+273,Desk,Is Inclusive?,cf_is_inclusive,Picklist
+274,Desk,GST Type,cf_gst_type,Picklist
+275,Desk,State Code,cf_state_code,Number
+276,Desk,GST Sub Type,cf_gst_sub_type,Picklist
+277,Desk,Format attached,cf_format_attached,Picklist
+278,Desk,GSTIN,cf_gstin,Text
+279,Desk,Entry Date,cf_entry_date,Date
+280,Desk,Remarks,cf_remarks,Textarea
+281,Desk,Additional Remarks,cf_additional_remarks,Textarea
+282,Desk,Due Date,dueDate,DateTime
+283,Desk,Income/Exp Account Number,cf_income_exp_account_number,Text
+284,Desk,On Create,cf_on_create,Boolean
+285,Desk,Date of document uploaded,cf_date_of_document_uploaded,DateTime
+286,Desk,GST Registration Number,cf_gst_registration_number,Number
+287,Desk,Enquiry control number,cf_enquiry_control_number,Textarea
+288,Desk,Credit Card Cust ID,cf_credit_card_cust_id,Number
+289,Desk,Details needs to be updated,cf_updation_of_details,Textarea
+290,Desk,Priority,priority,Picklist
+291,Desk,Udyam Registration Number,cf_udyam_registration_number,Number
+292,Desk,Closed by PF No.,cf_pf_no,Number
+293,Desk,Vehicle no,cf_vehicle_no,Textarea
+294,Desk,Closed by-Employee Name,cf_customer_accessing_from,Text
+295,Desk,Bar Code,cf_bar_code,Textarea
+296,Desk,No. of EMIs,cf_no_of_emis,Number
+297,Desk,Site Name,cf_site_name,Text
+298,Desk,datetime,cf_datetime,DateTime
+299,Desk,Merchant Name,cf_merchant_name,Text
+300,Desk,Channel,channel,Picklist
+301,Desk,Banking Ombudsman office,cf_banking_ombudsman_office,Picklist
+302,Desk,Banking Ombudsman Compliant No,cf_banking_ombudsman_compliant_no,Text
+303,Desk,Assignment Date,cf_assignment_date,Date
+304,Desk,Banking Ombudsman complaint date,cf_banking_ombudsman_complaint_date,Date
+305,Desk,Decimal 1,cf_decimal_1,Decimal
+306,Desk,Language,language,Picklist
+307,Desk,Classification,classification,Picklist
+308,Desk,Previous Owner,cf_previous_owner,Textarea
+309,Desk,Previous Team,cf_previous_team,Textarea
+310,Desk,Cash Received,cf_cash_received,Currency
+311,Desk,Amount Outstanding,cf_amount_outstanding,Currency
+312,Desk,Closure Comments,cf_closure_comments,Textarea
+313,Desk,Amt Requested/TxnAmt,cf_test_1,Text
+314,Desk,Email Restriction,cf_email_restriction,Textarea
+315,Desk,Received from,cf_received_from,Picklist
+316,Desk,Bank Name,cf_bank_name,Text
+317,Desk,PAN,cf_pan,Text
+318,Desk,Amount Requested/TxnAmt,cf_amount_requested_txn_amt,Currency
+319,Desk,Requested Leaf Count,cf_requested_leaf_count,Number
+320,Desk,Record No.,cf_record_no,Textarea
+321,Desk,Interest Charged,cf_interest_charged,Currency
+322,Desk,Fields to be updated,cf_fields_to_be_updated,Textarea
+323,Desk,DP Client ID,cf_dp_client_id,Text
+324,Desk,Currency,cf_currency,Text
+325,Desk,Prev. SR Date,cf_prev_sr_date,Date
+326,Desk,BG Number,cf_bg_number,Text
+327,Desk,From Account Number,cf_from_account_number,Text
+328,Desk,To Account Number,cf_to_account_number,Text
+329,Desk,Other Bank Account Number,cf_other_bank_account_number,Text
+330,Desk,Rejected By-PF No.,cf_pf_no_1,Number
+331,Desk,LC Number,cf_lc_number,Text
+332,Desk,PPF Account Number,cf_ppf_account_number,Text
+333,Desk,NPS Account Number,cf_nps_account_number,Text
+334,Desk,SSA Account Number,cf_ssa_account_number,Text
+335,Desk,PMJJBY Account Number,cf_pmjjby_account_number,Text
+336,Desk,KVP Number,cf_kvp_account_number,Text
+337,Desk,PMSBY Account Number,cf_pmsby_account_number,Text
+338,Desk,APY Account Number,cf_apy_account_number,Text
+339,Desk,Type of Relation,cf_type_of_relation,Text
+340,Desk,Nominee Relation,cf_nominee_relation,Text
+341,Desk,Nxt Approver Name,cf_nxt_approver_name,Text
+342,Desk,Claim Date,cf_claim_date,Date
+343,Desk,Date of non-working,cf_date_of_non_working,Date
+344,Desk,Requested Limit,cf_requested_limit,Text
+345,Desk,Account Number to be added,cf_account_number_to_be_added,Text
+346,Desk,Execution Date,cf_execution_date,Date
+347,Desk,Close Request Date,cf_close_request_date,Date
+348,Desk,Date of Maturity,cf_date_of_maturity,Date
+349,Desk,Date of Closure,cf_date_of_closure,Date
+350,Desk,Date of Applying of card,cf_date_of_applying_of_card,Date
+351,Desk,LC Submission date,cf_lc_submission_date,Date
+352,Desk,Gratuity Amount,cf_gratuity_amount,Currency
+353,Desk,Delay in Days,cf_delay_in_days,Number
+354,Desk,Nature of Descrepency,cf_nature_of_descrepency,Text
+355,Desk,Type of Password,cf_type_of_password,Text
+356,Desk,Date of Charge debit,cf_date_of_charge_debit,Date
+357,Desk,Type of Investment,cf_type_of_investment,Text
+358,Desk,Code recd Contact Number,cf_contact_recd_contact_number,Phone
+359,Desk,Transaction Particulars,cf_transaction_particulars,Textarea
+360,Desk,Limit,cf_limit,Text
+361,Desk,SI Amount,cf_si_amount,Currency
+362,Desk,LOCKER TYPE,cf_locker_type,Picklist
+363,Desk,Previous Status,cf_previous_status,Textarea
+364,Desk,Document Submitted?,cf_document_submitted,Boolean
+365,Desk,Reason of Negative feedback,cf_reason_of_negative_feedback,Textarea
+366,Desk,Previous Ticket Number,cf_previous_ticket_number,Textarea
+367,Desk,Complaint Region Code,cf_ro_parent_sol_id,Number
+368,Desk,Complaint Region Name,cf_ro_parent_sol_name,Text
+369,Desk,Complaint Zone Code,cf_fgmo_gr_parent_sol_id,Number
+370,Desk,Type of Closure,cf_type_of_closure,Text
+371,Desk,Complaint Zone Name,cf_fgmo_gr_parent_sol_name,Text
+372,Desk,Complaint branch Sol Id,cf_complaint_branch_sol_id,Text
+373,Desk,Complaint Branch Name,cf_mode_of_request,Text
+374,Desk,State,cf_state,Textarea
+375,Desk,Complaint Branch Email,cf_complaint_branch_email,Text
+376,Desk,App,cf_app,Multiselect
+377,Desk,RBI Category,cf_rbi_category,Picklist
+378,Desk,GRO Remarks,cf_gro_remarks,Textarea
+379,Desk,Escalation Priority,cf_escalation_priority,Picklist
+380,Desk,Error Log,cf_error_log,Textarea
+381,Desk,CGO Remarks,cf_cgo_remarks,Textarea
+382,Desk,IO Remarks,cf_io_remarks,Textarea
+383,Desk,Rejection_Comments,cf_rejection_comments,Textarea
+384,Desk,Level,cf_level,Number
+385,Desk,revoked,cf_revoked,Boolean
+386,Desk,follower ticket,cf_follower_ticket,Boolean
+387,Desk,branch assigned,cf_branch_assigned,Boolean
+388,Desk,Branch Users,cf_branch_users,Textarea
+389,Desk,Overdue notification triggered,cf_overdue_notification_triggered,Boolean
+390,Desk,Level1 Id,cf_level1,Text
+391,Desk,Level1 Escalation time,cf_level1_escalated_time,DateTime
+392,Desk,Level2 Id,cf_level2_id,Text
+393,Desk,Level2 Escalation time,cf_level2_escalated_time,DateTime
+394,Desk,Level3 Id,cf_level3_id,Text
+395,Desk,Create duplicate ticket,cf_create_duplicate_ticket,Boolean
+396,Desk,Level3 Escalation time,cf_level3_escalated_time,DateTime
+397,Desk,Log,cf_log,Textarea
+398,Desk,Email-Triggered,cf_email_triggered,Textarea
+399,Desk,Reopened TAT,cf_reopened_tat,Boolean

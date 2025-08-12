@@ -1,0 +1,275 @@
+Signing into UBI DC
+Ticket creation page opened
+Test case no:0
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Duplicate D-Card PIN']
+Result: Success
+Test case no:1
+value tbsYesoptions for cf:cf_is_existing_customer are['', '']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Hotlisting of Debit Card']
+Result: Failure
+Test case no:2
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Issue New Debit Card :: MASTER']
+Result: Success
+Test case no:3
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Issue New Debit Card :: RUPAY']
+Result: Failure
+Test case no:4
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Issue New Debit Card :: VISA']
+Result: Success
+Test case no:5
+value tbsYesoptions for cf:cf_is_existing_customer are['', '']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Issue-Personalized Debit Card']
+Result: Failure
+Test case no:6
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Linking Multi A/C to One Card']
+Result: Failure
+Test case no:7
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Location of D-Card Mis/Used']
+Result: Success
+Test case no:8
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: New Debit Card PIN Issue']
+Result: Failure
+Test case no:9
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Repl of Personalised D-Card :: MASTER']
+Result: Success
+Test case no:10
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Repl of Personalised D-Card :: VISA']
+Result: Failure
+Test case no:11
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Repl of Personalised D-Card :: RUPAY']
+Result: Success
+Test case no:12
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Replacement of a Debit Card :: VISA']
+Result: Success
+Test case no:13
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Replacement of a Debit Card :: MASTER']
+Result: Success
+Test case no:14
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Replacement of a Debit Card :: RUPAY']
+Result: Success
+Test case no:15
+value tbsYesoptions for cf:cf_is_existing_customer are['', '']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Request for Add-on Card :: MASTER']
+Result: Failure
+Test case no:16
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Request for Add-on Card :: RUPAY']
+Result: Failure
+Test case no:17
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Request for Add-on Card :: VISA']
+Result: Failure
+Test case no:18
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Request for personalized Card :: MASTER']
+Result: Success
+Test case no:19
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Request for personalized Card :: RUPAY']
+Result: Success
+Test case no:20
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Request for personalized Card :: VISA']
+Result: Success
+Test case no:21
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Third Party Hotlisting']
+Result: Success
+Test case no:22
+value tbsYesoptions for cf:cf_is_existing_customer are['', '']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Upgrade debit card :: MASTER']
+Result: Failure
+Test case no:23
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Upgrade debit card :: RUPAY']
+Result: Success
+Test case no:24
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['ATM/Debit Card :: Upgrade debit card :: VISA']
+Result: Success
+Test case no:25
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Activate e-mail Statement']
+Result: Failure
+Test case no:26
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Apply for MF']
+Result: Success
+Test case no:27
+value tbsYesoptions for cf:cf_is_existing_customer are['', '']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Apply for new deposit account']
+Result: Failure
+Test case no:28
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Profile updation']
+Result: Success
+Test case no:29
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Request for update Aadhaar']
+Result: Success
+Test case no:30
+value tbsYesoptions for cf:cf_is_existing_customer are['', 'No']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Request for update Form 60']
+Result: Failure
+Test case no:31
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Request for update PAN']
+Result: Success
+Test case no:32
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: SB to NRO Account Conversion']
+Result: Success
+Test case no:33
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['CASA :: Statement Request']
+Result: Success
+Test case no:34
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Cheque Book :: Cheque book request']
+Result: Success
+Test case no:35
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Cheque Book :: Stop Payment of Cheque']
+Result: Success
+Test case no:36
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Credit Cards :: Apply for Credit Cards']
+Result: Success
+Test case no:37
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Credit Cards :: Card Fee Waiver Request']
+Result: Success
+Test case no:38
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Credit Cards :: Credit Card Duplicate Pin']
+Result: Success
+Test case no:39
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Credit Cards :: Hotlisting of Card']
+Result: Success
+Test case no:40
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Credit Cards :: Profile update']
+Result: Success
+Test case no:41
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Credit Cards :: Statement Request']
+Result: Success
+Test case no:42
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Demat Account :: Apply for new De-mat Account']
+Result: Success
+Test case no:43
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Demat Account :: Request for charge reversal']
+Result: Success
+Test case no:44
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Demat Account :: Request TIFD booklet']
+Result: Success
+Test case no:45
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Govt Schemes :: Apply for opening NPS']
+Result: Success
+Test case no:46
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Govt Schemes :: Apply for opening PPF']
+Result: Success
+Test case no:47
+value tbsYesoptions for cf:cf_is_existing_customer are['Yes', 'No']
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Govt Schemes :: Deposit Scheme :: Apply for KVP']
+Result: Success
+Test case no:48
+value tbsYesoptions for cf:cf_is_existing_customer are['', '']
+Input condition failed: Could not set the value:Yes in the field: Is Existing Customer?
+
+value tbsService Requestoptions for cf:cf_ticket_type_1 are['-None-', 'Query', 'Service Request', 'Cmplnt-Int banking/LoansAdvances', 'Complaint - others']
+Search results:['Govt Schemes :: Deposit Scheme :: Apply for SSA']
+Result: Failure

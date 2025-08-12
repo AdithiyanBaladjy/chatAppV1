@@ -1,0 +1,81 @@
+,Module,Field Name,API Name,Data Type
+0,Loan Accounts,A/c Open Date  ,  A_c_Open_Date    ,Date
+1,Loan Accounts,Account Close Date  ,  Account_Close_Date    ,DateTime
+2,Loan Accounts,Account Close Flag  ,  Account_Close_Flag    ,Single Line
+3,Loan Accounts,Account Name  ,  Account_Name    ,Single Line
+4,Loan Accounts,Account Number  ,  Name     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Single Line
+5,Loan Accounts,Account Short Name  ,  Account_Short_Name    ,Single Line
+6,Loan Accounts,Account Status  ,  Account_Status    ,Single Line
+7,Loan Accounts,ACCT_POA_AS_REC_TYPE  ,  ACCT_POA_AS_REC_TYPE    ,Single Line
+8,Loan Accounts,ACID  ,  ACID    ,Single Line (Unique)
+9,Loan Accounts,Amount Recovered  ,  Amount_Recovered    ,Decimal
+10,Loan Accounts,Asset Classification  ,  Asset_Classification    ,Single Line
+11,Loan Accounts,Average Balance  ,  Average_Balance    ,Currency
+12,Loan Accounts,Branch Name  ,  Branch_Sol_ID    ,Lookup
+13,Loan Accounts,Branch SOL ID  ,  Branch_Name    ,Single Line
+14,Loan Accounts,Charge Overdue  ,  Charge_Overdue    ,Decimal
+15,Loan Accounts,Cheque Allowed  ,  Cheque_Allowed    ,Single Line
+16,Loan Accounts,Cheque Availed  ,  Cheque_Availed    ,Boolean
+17,Loan Accounts,Client Sector  ,  Client_Sector    ,Single Line
+18,Loan Accounts,Created By  ,  Created_By     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Single Line
+19,Loan Accounts,Critical Amount  ,  Critical_Amount    ,Currency
+20,Loan Accounts,Currency Code  ,  Currency_Code    ,Single Line
+21,Loan Accounts,Customer ID  ,  Customer_ID    ,Single Line
+22,Loan Accounts,Customer Name  ,  Customer_Name    ,Lookup
+23,Loan Accounts,Date of NPA  ,  Date_of_NPA_History    ,Single Line
+24,Loan Accounts,Date of NPA (Present)  ,  Date_of_NPA    ,Single Line
+25,Loan Accounts,DEAF Flag  ,  DEAF_Flag    ,Pick List
+26,Loan Accounts,DSA Master  ,  DSA_Master    ,Lookup
+27,Loan Accounts,Email  ,  Email     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Email
+28,Loan Accounts,Email Opt Out  ,  Email_Opt_Out     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Boolean
+29,Loan Accounts,EMI Amount  ,  EMI_Amount    ,Currency
+30,Loan Accounts,EMI Start Date  ,  EMI_Start_Date    ,Date
+31,Loan Accounts,Emp Flag  ,  Emp_Flag    ,Single Line
+32,Loan Accounts,ETL_UPDATED_TIME  ,  ETL_UPDATED_TIME    ,DateTime
+33,Loan Accounts,Freeze Reason  ,  Freeze_Reason    ,Single Line
+34,Loan Accounts,Freeze Status  ,  Freeze_Status    ,Single Line
+35,Loan Accounts,History of NPA  ,  History_of_NPA    ,Single Line
+36,Loan Accounts,IAS Code  ,  IAS_Code    ,Single Line
+37,Loan Accounts,Interest Income  ,  Interest_Income    ,Decimal
+38,Loan Accounts,Interest Overdue  ,  Interest_Overdue    ,Decimal
+39,Loan Accounts,Interest Rate  ,  Interest_Rate    ,Single Line
+40,Loan Accounts,LAM DEL FLG  ,  LAM_DEL_FLG    ,Single Line
+41,Loan Accounts,Last Freeze Date  ,  Last_Freeze_Date    ,DateTime
+42,Loan Accounts,Last Inspection date  ,  Last_Inspection_date    ,Date
+43,Loan Accounts,Last MMR date  ,  Date_4    ,Date
+44,Loan Accounts,Last stock statement submission date  ,  Last_stock_statement_submission_date    ,Date
+45,Loan Accounts,last stock statement submission date (Working Capi  ,  Date_2    ,Date
+46,Loan Accounts,LAST TRAN DATE  ,  LAST_TRAN_DATE    ,Date
+47,Loan Accounts,Last UnFreeze Date  ,  Last_UnFreeze_Date    ,DateTime
+48,Loan Accounts,Last Updated Time  ,  Date_Time_1    ,DateTime
+49,Loan Accounts,Lead  ,  Lead    ,Lookup
+50,Loan Accounts,Lien Amount  ,  Lien_Amount    ,Single Line
+51,Loan Accounts,Limit Sanction Date  ,  Limit_Sanction_Date    ,Date
+52,Loan Accounts,Loan Accounts Image  ,  Record_Image     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Loan Accounts Image
+53,Loan Accounts,Loan Accounts Owner  ,  Owner     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Lookup
+54,Loan Accounts,Loan Period  ,  Loan_Period    ,Number
+55,Loan Accounts,Loan Type  ,  Loan_Type    ,Single Line
+56,Loan Accounts,Mode of Operation  ,  Mode_of_Operation    ,Single Line
+57,Loan Accounts,Modified By  ,  Modified_By     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Single Line
+58,Loan Accounts,Non-Interest Income  ,  Non_Interest_Income    ,Currency
+59,Loan Accounts,Outstanding Balance  ,  Balance_Currency    ,Currency
+60,Loan Accounts,Overdue Amount  ,  Overdue_Amount    ,Currency
+61,Loan Accounts,Overdue Days  ,  Overdue_Days    ,Number
+62,Loan Accounts,Overdue Since (Date)  ,  Overdue_Since    ,Date
+63,Loan Accounts,Principal Overdue  ,  Principle_Overdue    ,Decimal
+64,Loan Accounts,Purpose of Advance  ,  Purpose_of_Advance    ,Single Line
+65,Loan Accounts,Purpose of Advance Desc  ,  Purpose_of_Advance_Desc    ,Single Line
+66,Loan Accounts,Reason for Lien  ,  Single_Line_12    ,Single Line
+67,Loan Accounts,Reason for SMA0/SMA1/SMA2  ,  Reason_for_SMA0_SMA1_SMA2    ,Multi Line (Small)
+68,Loan Accounts,Review date  ,  Review_Date    ,Date
+69,Loan Accounts,Sanctioned Amount  ,  Sanctioned_Amount    ,Currency
+70,Loan Accounts,Scheme Code  ,  Scheme_Code    ,Single Line
+71,Loan Accounts,Scheme Name  ,  Scheme_Name    ,Lookup
+72,Loan Accounts,Scheme Type  ,  A_c_Type_Current_Saving    ,Pick List
+73,Loan Accounts,Secondary Email  ,  Secondary_Email     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Email
+74,Loan Accounts,Security Amount  ,  Security_Amount    ,Currency
+75,Loan Accounts,SMA Date  ,  Date_6    ,Date
+76,Loan Accounts,SMA Movement (Month Start)  ,  SMA_Movement    ,Single Line
+77,Loan Accounts,SMA Status (Present Status)  ,  SMA_Status    ,Single Line
+78,Loan Accounts,Tag  ,  Tag     Save Cancel  Please exercise caution while changing the name as it may affect the existing integrations   ,Single Line
+79,Loan Accounts,Total Disbursement in Amount  ,  Total_Disbursement_in_Amount    ,Currency

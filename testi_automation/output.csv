@@ -1,0 +1,115 @@
+,Module,Field Name,Data Type
+0,Prospect, ,Aadhar Number  
+1,Prospect, ,Aadhar Number  
+2,Prospect, ,Address Line 1  
+3,Prospect, ,Address Line 1  
+4,Prospect, ,Address Line 2  
+5,Prospect, ,Address Line 2  
+6,Prospect, ,Associated Lead  
+7,Prospect, ,Associated Lead  
+8,Prospect, ,Branch Name  
+9,Prospect, ,Branch Name  
+10,Prospect, ,Campaign ID  
+11,Prospect, ,Campaign ID  
+12,Prospect, ,Campaign Name  
+13,Prospect, ,Campaign Name  
+14,Prospect, ,City  
+15,Prospect, ,City  
+16,Prospect, ,Constitution  
+17,Prospect, ,Constitution  
+18,Prospect, ,Country  
+19,Prospect, ,Country  
+20,Prospect, ,Created By  
+21,Prospect, ,Created By  
+22,Prospect, ,Customer ID  
+23,Prospect, ,Customer ID  
+24,Prospect, ,Dialer Disposition Status  
+25,Prospect, ,Dialer Disposition Status  
+26,Prospect, ,Dialer Disposition Sub Status  
+27,Prospect, ,Dialer Disposition Sub Status  
+28,Prospect, ,Disbursed Amount  
+29,Prospect, ,Disbursed Amount  
+30,Prospect, ,District  
+31,Prospect, ,District  
+32,Prospect, ,Email  
+33,Prospect, ,Email  
+34,Prospect, ,Email Opt Out  
+35,Prospect, ,Email Opt Out  
+36,Prospect, ,Expected Business  
+37,Prospect, ,Expected Business  
+38,Prospect, ,Finacle Acc Number  
+39,Prospect, ,Finacle Acc Number  
+40,Prospect, ,Finacle Account Opened Date  
+41,Prospect, ,Finacle Account Opened Date  
+42,Prospect, ,Finacle Branch Code  
+43,Prospect, ,Finacle Branch Code  
+44,Prospect, ,Finacle Branch Name  
+45,Prospect, ,Finacle Branch Name  
+46,Prospect, ,Finacle Customer ID  
+47,Prospect, ,Finacle Customer ID  
+48,Prospect, ,Is Existing Customer  
+49,Prospect, ,Is Existing Customer  
+50,Prospect, ,Landmark  
+51,Prospect, ,Landmark  
+52,Prospect, ,Lead Source  
+53,Prospect, ,Lead Source  
+54,Prospect, ,Lead Sub Source  
+55,Prospect, ,Lead Sub Source  
+56,Prospect, ,Mobile  
+57,Prospect, ,Mobile  
+58,Prospect, ,Modified By  
+59,Prospect, ,Modified By  
+60,Prospect, ,No of Sent(Whatsapp & SMS)  
+61,Prospect, ,No of Sent(Whatsapp & SMS)  
+62,Prospect, ,PAN/TAN Number  
+63,Prospect, ,PAN/TAN Number  
+64,Prospect, ,Phone  
+65,Prospect, ,Phone  
+66,Prospect, ,Pin - Code  
+67,Prospect, ,Pin - Code  
+68,Prospect, ,Preferred Mode of Communication  
+69,Prospect, ,Preferred Mode of Communication  
+70,Prospect, ,Processing Date  
+71,Prospect, ,Processing Date  
+72,Prospect, ,Product  
+73,Prospect, ,Product  
+74,Prospect, ,Prospect Image  
+75,Prospect, ,Prospect Image  
+76,Prospect, ,Prospect Name  
+77,Prospect, ,Prospect Name  
+78,Prospect, ,Prospect Owner  
+79,Prospect, ,Prospect Owner  
+80,Prospect, ,Prospect Reference Number  
+81,Prospect, ,Prospect Reference Number  
+82,Prospect, ,Prospect Status  
+83,Prospect, ,Prospect Status  
+84,Prospect, ,Prospect Sub Status  
+85,Prospect, ,Prospect Sub Status  
+86,Prospect, ,Push to Dialer Response  
+87,Prospect, ,Push to Dialer Response  
+88,Prospect, ,Remarks  
+89,Prospect, ,Remarks  
+90,Prospect, ,Sanction Amount  
+91,Prospect, ,Sanction Amount  
+92,Prospect, ,Sanctioned Date  
+93,Prospect, ,Sanctioned Date  
+94,Prospect, ,Scheme Code  
+95,Prospect, ,Scheme Code  
+96,Prospect, ,Secondary Email  
+97,Prospect, ,Secondary Email  
+98,Prospect, ,State Name  
+99,Prospect, ,State Name  
+100,Prospect, ,STP Application Reference Number  
+101,Prospect, ,STP Application Reference Number  
+102,Prospect, ,Sub Product  
+103,Prospect, ,Sub Product  
+104,Prospect, ,Tag  
+105,Prospect, ,Tag  
+106,Prospect, ,Trigger  
+107,Prospect, ,Trigger  
+108,Prospect, ,Trigger Push to dialer  
+109,Prospect, ,Trigger Push to dialer  
+110,Prospect, ,Update Prospect Lead  
+111,Prospect, ,Update Prospect Lead  
+112,Prospect, ,Whatsapp & SMS Response  
+113,Prospect, ,Whatsapp & SMS Response  
