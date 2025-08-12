@@ -1,0 +1,49 @@
+.toggle-container{
+    height: 50%;
+    width: 1em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    /* transition: all 0.5s ease-in-out; */
+    cursor: pointer;
+    --background-color-active:green;
+    --background-color-inactive:white;
+    --toggle-switch-color:grey;
+    background-color: var(--background-color-inactive);
+}
+.toggle-container-active{
+    background-color: var(--background-color-active) !important;
+}
+.toggle-switch{
+    height: 200%;
+    width: 60%;
+    border-radius: 50%;
+    position:relative;
+    top:-50%;
+    background-color: var(--toggle-switch-color);
+}
+.toggle-switch-left{
+    /* left: -50%; */
+    animation: slide-right 1s reverse ease-in-out;
+}
+.toggle-switch-right{
+    /* margin-left: auto;
+    right: -50%; */
+    animation: slide-right 1s forwards ease-in-out;
+}
+@keyframes slide-right{
+    0%{
+        margin-left: unset;
+        left: -50%;
+        right: 0;
+    }
+    50%{
+        margin-left: 50%;
+        left: 0;
+    }
+    100%{
+        margin-left: auto;
+        left: 0;
+        right: -50%;
+    }
+}

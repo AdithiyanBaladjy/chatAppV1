@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    background-color: white;
+    color: rgb(88, 88, 88);
+    height: 100vh;
+}
+.page-root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+.sign-in-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgb(201 197 197)
+}
+.fly-input-box{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    padding: 6.5% 0;
+}
+.input-underline{
+    outline: none;
+    border: none;
+    border-bottom:2px solid rgb(66, 66, 66);
+}
+.input-underline:focus{
+ border-bottom-color:blue;   
+}
+.fly-input-box:focus-within > .fly-label, .fly-input-box:hover > .fly-label{
+    top: 0px;
+    transition: 0.5s ease-out;
+}
+
+.fly-label{
+    position:relative;
+    top:20px;
+    transition: 0.5s ease-in;
+}
+.row-parent{
+    display: flex;
+    flex-direction: column;
+}
+.center-align{
+    align-items: center;
+    justify-content: center;
+}
+.primary-btn{
+    cursor: pointer;
+    padding: 4% 25%;
+    border-radius: 4px;
+    background-color: rgb(19, 136, 183);
+    color: rgb(230, 230, 230);
+    transition: 0.2s;
+}
+.primary-btn:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.pad-vertical{
+    padding: 6.5% 0;
+}

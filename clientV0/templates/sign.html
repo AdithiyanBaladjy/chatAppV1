@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="/static/sign.js"></script>
+        <link rel="stylesheet" href="./sign.css">
+    </head>
+    <body>
+        <div class="page-root">
+            <div class="sign-in-box">
+                <div class="fly-input-box">
+                    <div class="fly-label" id="Email_label">Email</div>
+                    <div><input class="input-underline" id="user_name" onkeyup="check_input(this,'Email_label')"/></div>
+                </div>
+                <div class="fly-input-box">
+                    <div class="fly-label" id="Password_label">Password</div>
+                    <div><input class="input-underline" type="password" id="password" onkeyup="check_input(this,'Password_label')"/></div>
+                </div>
+                <div class="center-align row-parent pad-vertical" style="width: 100%;">
+                    <div class="primary-btn" onclick="sign_in()">Sign</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

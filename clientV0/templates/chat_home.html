@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="/static/chat_home.js"></script>
+        <link rel="stylesheet" href="./chat_home.css">
+        <link rel="stylesheet" href="./light_theme.css">
+        <link rel="stylesheet" href="./dark_theme.css">
+        <link rel="stylesheet" href="./utilities.css">
+    </head>
+    <body class="body-light light-theme-colors">
+        <div class="top-most-container">
+            <div class="top-ribbon">
+                <div class="left-align-items">
+                    <div class="top-left-logo-container">
+                        <div class="logo-img"></div>
+                        <div class="app-name top-ribbon-items-pad app-name-light">Chat X</div>
+                    </div>
+                </div>
+                <div class="right-align-items">
+                    <div class="right-menu-options top-ribbon-items-pad right-menu-options-selected-light clickable">CHATS</div>
+                    <div class="right-menu-options top-ribbon-items-pad clickable">CALLS</div>
+                    <div class="right-menu-options top-ribbon-items-pad clickable">SEARCH</div>
+                    <div class="right-menu-options top-ribbon-items-pad clickable">SETTINGS</div>
+                    <div class="right-menu-options top-ribbon-items-pad"><div class="toggle-container" style="font-size:25px;" onclick="switchTheme(this)"></div></div>
+                    <div class="right-menu-options top-ribbon-items-pad clickable">PROFILE</div>                    
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="contact-section" id="contactCardsParent">
+                    <div class="contact-section-title-bar">
+                        <div class="contact-title">Contacts</div>
+                        <div class="contact-search">search icon</div>
+                    </div>
+                    <div class="contact-row hide" id="contactCardClone">
+                        <div id="contactName"></div><div id="notificationBubble"></div>
+                    </div>
+                </div>
+                <div class="chat-section">
+                    <div class="chat-window">
+                        <div class="chat-header">
+                            <div class="profile-pic-parent">
+
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-name" id="chatContactName"></div>
+                                <div class="contact-status" id="contactStatus"></div>
+                            </div>
+                            <div class="contact-action">
+
+                            </div>
+                        </div>
+                        <div class="msg-section">
+                            <div class="msg-rows" id="msgRowClone">
+                                <div class="sent-msg-container">
+                                    <div class="msg-parent">Hi, How are you?</div>
+                                    <div class="time-stamp-parent">5:00 PM</div>
+                                </div>
+                            </div>
+                            <div class="msg-rows" id="msgRowClone">
+                                <div class="recd-msg-container">
+                                    <div class="msg-parent">Hi, How are you?</div>
+                                    <div class="time-stamp-parent">5:00 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="send-msg-section">
+                            <textarea id="msgInputBox" class="send-msg-box"></textarea>
+                            <div class="btn-primary" style="width: 18%; height:100%; border-top-right-radius: 4px; border-bottom-right-radius:4px;">Send</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Script inclusions-->
+        <script src="/static/designUtilities.js"></script>
+    </body>
+</html>
